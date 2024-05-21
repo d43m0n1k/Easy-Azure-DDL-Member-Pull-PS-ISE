@@ -26,6 +26,11 @@ if ($members) {
             LastName        = $additionalInfo.LastName
             DisplayName     = $additionalInfo.DisplayName
             PrimarySmtp     = $_.PrimarySmtpAddress
+            JobTitle        = $additionalInfo.Title
+            Department      = $additionalInfo.Department
+            Manager         = $additionalInfo.Manager
+            PhoneNumber     = $additionalInfo.PhoneNumber
+            LastLogonTime   = $additionalInfo.LastLogonTime
         }
     }
 
