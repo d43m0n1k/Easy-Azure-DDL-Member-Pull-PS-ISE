@@ -1,3 +1,14 @@
+################################################################################
+# Copyright (C) 2024 d43m0n1k
+#
+# This program comes with ABSOLUTELY NO WARRANTY.
+# This is free software, and you are welcome to redistribute it
+# under certain conditions. See the GNU General Public License
+# version 3 or later for details: https://www.gnu.org/licenses/gpl-3.0.html
+#
+# For more information, visit: https://github.com/d43m0n1k/pms_permissions
+################################################################################
+
 # Replace 'DDistro01' with Actual name of dynamic distribution group
 $members = Get-DynamicDistributionGroupMember -Identity 'DDistro01'
 
